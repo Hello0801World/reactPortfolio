@@ -39,7 +39,6 @@ const Wrapper = styled.div`
     text-align: center;
     justify-content: center;
     padding: 3rem 3rem;
-    
   }
 
   img {
@@ -52,9 +51,10 @@ const Wrapper = styled.div`
   }
 
   h1 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     font-size: clamp(50px, 15vw, 100px);
   }
-
 `
 
 export default Wrapper

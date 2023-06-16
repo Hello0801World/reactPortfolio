@@ -1,13 +1,28 @@
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-.row {
-  margin: 3rem;
-}
-.column {
+  h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+
+  }
+
+ .card-body {
+  text-align: center;
+ }
+
+ .card-text {
+  text-align: center;
+ }
+
+ .row {
   justify-content: center;
-  display: flex;
-  flex-flow: row nowrap;
+  margin: 2rem 1rem;
+ }
+
+.Col {
+  justify-content: center;
   max-width: 350px;
   /* width: 200px; */
   height: auto;

@@ -8,20 +8,8 @@ function App() {
   return (
     <>
       <Navbar />
-        <MainPage />
-        {skills.map((skill, key)=>{
-          console.log(skill)
-          return(
-            <>
-            <Skills key={key} 
-              skillName={skill.skillName} 
-              url={skill.url} />
-              <img src={skill.url} alt="shit" />
-              </>
-          )
-          
-      })
-      }
+      <MainPage />
+      <Skills />
     </>
     
   );
