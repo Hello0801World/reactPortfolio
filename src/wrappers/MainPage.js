@@ -1,16 +1,24 @@
 import styled from "styled-components";
-import donutImg from '../images/DonutBackground.jpg'
+import donutImg from '../images/annie-spratt-EACvtuV2k2E-unsplash.jpg'
 
 const Wrapper = styled.div`
   .main-page-row {
-    margin:0;
+    margin: 0;
     background-color: whitesmoke;
     min-height:400px;
     height: auto;
+    background-image: url(${donutImg});
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1, h2{
+    color: #fff;
+    text-shadow: 3px 2px #000;
   }
 
   .intro-div {
-    background-image: url(donutImg);
     height: 250px;
     display: flex;
     flex-flow: column;
@@ -32,6 +40,15 @@ const Wrapper = styled.div`
     justify-content: center;
     padding: 3rem 3rem;
     
+  }
+
+  img {
+    min-width: 150px;
+    max-width: 350px;
+    height: auto;
+    height: grid-auto-flow;
+    border: 2px solid #B17CEA;
+    border-radius: 60%;
   }
 
   h1 {

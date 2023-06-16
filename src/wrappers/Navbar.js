@@ -11,6 +11,11 @@ const Wrapper = styled.nav`
     margin-right: 2rem;
   }
 
+  .nav-link:hover {
+    text-decoration: underline solid #B17CEA;
+
+  }
+
   .nav-item .nav-link {
     font-size: 20px;
     font-weight: 750;

@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import{ Navbar, MainPage} from './components/index';
+import{ Navbar, MainPage, Skills} from './components/index';
 
 
 
@@ -9,6 +9,7 @@ function App() {
     <>
       <Navbar />
       <MainPage />
+      <Skills />
     </>
     
   );
