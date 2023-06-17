@@ -1,5 +1,3 @@
-import '../images/icons8-html-96.png'
-
 export const skills = [
   {
     skillName: "HTML",

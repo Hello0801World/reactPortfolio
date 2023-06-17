@@ -1,35 +1,77 @@
 import React from "react"
-import imgLink from '../images/icons8-html-96.png'
 import Wrapper from '../wrappers/Skills'
-import {skills} from '../data/skillList.js'
-import htmlLink from '../images/icons8-html-96.png'
-import { Container, Row, Col } from "react-bootstrap"
+import { Container, Row } from "react-bootstrap"
+import Skill from "./Skill"
 
+// imported data
+import {skills} from '../data/skillList.js'
+import { frameworks } from "../data/frameworks"
+import { others } from "../data/others"
 
 const Skills = () => {
   
   console.log(skills)
   return (
       <Wrapper>
-        <h2>&lt;Languages /&gt;</h2>
+        
           <div>
-            <Container>
-              <Row className="row">
-                { skills.map((skill)=>{
-                  const {skillName, url, alt} = skill
-                  return (
-                    <Col xs='12' sm='6' md='3' lg='2'>
-                      <img className="card-img-top" src={url} alt={alt} />
-                      <div className="card-body">
-                        <p className="card-text">{skillName}</p>
-                      </div>
-                    </Col>
-                  )
-                  })
-                }
-              </Row>
-            </Container>
-          </div>
+          <h3>&lt;Languages /&gt;</h3>
+              <Container>
+                <Row className="row">
+                  { skills.map((skill, key)=>{
+                    const {skillName, url, alt} = skill
+                    return (
+                      <Skill key={key}
+                              name={skill.skillName}
+                              url={skill.url}
+                              alt={skill.alt}
+                              />
+                    )
+                    })
+                  }
+                </Row>
+              </Container>
+            </div>
+            <div>
+              <h3>&lt;Frameworks /&gt;</h3>
+              <Container>
+                <Row className="row">
+                  {
+                    frameworks.map((framework, key)=>{
+                      const {name, url, alt} = framework
+                      return (
+                        <Skill key={key}
+                              name={framework.name}
+                              url={framework.url}
+                              alt={framework.alt}
+                              />
+                      )
+                    })
+                  }
+                </Row>
+              </Container>
+            </div>
+            
+            <div>
+                <h3>&lt;Others /&gt;</h3>
+              <Container>
+                <Row className="row">
+                  {
+                    others.map((other, key)=>{
+                      const {name, url, alt} = other
+                      return (
+                        <Skill key={key}
+                              name={other.name}
+                              url={other.url}
+                              alt={other.alt}
+                              />
+                      )
+                    })
+                  }
+                </Row>
+              </Container>
+            </div>
+          
       </Wrapper>
   )
 }

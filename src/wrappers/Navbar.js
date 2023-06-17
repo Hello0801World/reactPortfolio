@@ -6,9 +6,13 @@ const Wrapper = styled.nav`
   }
 
   .nav-name {
+    margin-left: 1rem;
+  }
+
+  .nav-name {
     font-weight: bold;
     font-size: 28px;
-    margin-right: 2rem;
+    margin-right: 1rem;
   }
 
   .nav-link:hover {

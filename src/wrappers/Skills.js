@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  h2 {
+  h3 {
     text-align: center;
     font-weight: bold;
-    font-size: 50px;
-
+    font-size: 2.25rem;
+    white-space: nowrap;
   }
 
  .card-body {
@@ -31,7 +31,6 @@ const Wrapper = styled.div`
 p {
   text-align: center;
 }
-
 ` 
 
 export default Wrapper
