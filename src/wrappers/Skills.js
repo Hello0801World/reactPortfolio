@@ -1,11 +1,26 @@
 import styled from "styled-components";
 
 const Wrapper = styled.div`
+padding-top: 1rem;
+background: whitesmoke;
+
+ .skillsContainer{
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+  h2 {
+    margin-left: 2rem;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
   h3 {
     text-align: center;
     font-weight: bold;
     font-size: 2.25rem;
     white-space: nowrap;
+    text-shadow: 2px 2px #fff;
   }
 
  .card-body {

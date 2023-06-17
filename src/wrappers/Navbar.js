@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
 const Wrapper = styled.nav`
+  position: sticky;
+  top: 0;
   .navbar {
     text-align: center;
   }

@@ -2,6 +2,7 @@ import styled from "styled-components";
 import donutImg from '../images/annie-spratt-EACvtuV2k2E-unsplash.jpg'
 
 const Wrapper = styled.div`
+display: flex;
   .main-page-row {
     margin: 0;
     background-color: whitesmoke;

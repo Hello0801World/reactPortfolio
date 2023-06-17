@@ -13,13 +13,12 @@ const Skills = () => {
   console.log(skills)
   return (
       <Wrapper>
-        
+      <h2>Here are my skills</h2>
           <div>
-          <h3>&lt;Languages /&gt;</h3>
-              <Container>
+              <Container className='skillsContainer'>
+              <h3>&lt;Languages /&gt;</h3>
                 <Row className="row">
                   { skills.map((skill, key)=>{
-                    const {skillName, url, alt} = skill
                     return (
                       <Skill key={key}
                               name={skill.skillName}
@@ -33,12 +32,11 @@ const Skills = () => {
               </Container>
             </div>
             <div>
+              <Container className='skillsContainer'>
               <h3>&lt;Frameworks /&gt;</h3>
-              <Container>
                 <Row className="row">
                   {
                     frameworks.map((framework, key)=>{
-                      const {name, url, alt} = framework
                       return (
                         <Skill key={key}
                               name={framework.name}
@@ -53,12 +51,11 @@ const Skills = () => {
             </div>
             
             <div>
-                <h3>&lt;Others /&gt;</h3>
-              <Container>
+              <Container className='skillsContainer'>
+              <h3>&lt;Others /&gt;</h3>
                 <Row className="row">
                   {
                     others.map((other, key)=>{
-                      const {name, url, alt} = other
                       return (
                         <Skill key={key}
                               name={other.name}
