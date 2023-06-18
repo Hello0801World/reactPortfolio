@@ -7,6 +7,9 @@ background: whitesmoke;
  .skillsContainer{
   background-color: #fff;
   border-radius: 4px;
+  max-width: 900px;
+  padding: 1rem;
+  margin: 1rem auto;
 }
 
   h2 {
