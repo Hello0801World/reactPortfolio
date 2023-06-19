@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import donutImg from '../images/annie-spratt-EACvtuV2k2E-unsplash.jpg'
+import donutImg from '../images/pexels-henry-&-co-1939485.jpg'
 
 const Wrapper = styled.div`
 display: flex;
@@ -43,12 +43,12 @@ display: flex;
   }
 
   img {
-    min-width: 150px;
-    max-width: 350px;
+    min-width: 180px;
+    max-width: 450px;
     height: auto;
     height: grid-auto-flow;
-    border: 2px solid #B17CEA;
-    border-radius: 60%;
+    /* border: 2px solid #B17CEA;
+    border-radius: 60%; */
   }
 
   h1 {

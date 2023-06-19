@@ -3,6 +3,7 @@ import styled from "styled-components";
 const Wrapper = styled.div`
 padding-top: 1rem;
 background: whitesmoke;
+padding-bottom: 1rem;
 
  .skillsContainer{
   background-color: #fff;

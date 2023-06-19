@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
   
+  
   .experience {
     background-color: #edf0f2;
     padding: 64px 0;
@@ -13,9 +14,10 @@ const Wrapper = styled.div`
   }
 
   h3 {
+    font-size: min();
     color: #B17CEA;
     font-weight: bold;
-    
+    margin-bottom: 1rem;
   }
 
   h5 {
