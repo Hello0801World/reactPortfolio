@@ -14,11 +14,14 @@ const Intro = () => {
           <h1>Hi, I'm <span className="hero-span">Shun Odaki</span></h1>
             <h2>I'm a Software Engineer that welcomes challenges and architects solutions.</h2>
         </div>
-        <div className='col-sm-12 col-md-4 col-lg-4'>
-          <img src={DeveloperImg} alt="" />
+        <div className='col-sm-12 col-md-4 col-lg-4 image-icon-div'>
+          <img src={DeveloperImg} alt="Image of myself" className='intro-img'/>
+          
           <div className='row icons-div'>
-            <a href=""><img src={githubImg} alt=""></img></a>
-            <a href=""><img src={linkedinImg} alt=""></img></a>
+            <div className='col-12'> 
+              <a href=""><img src={githubImg} alt=""></img></a>
+              <a href=""><img src={linkedinImg} alt=""></img></a>
+            </div>
           </div>
         </div>
       </div>

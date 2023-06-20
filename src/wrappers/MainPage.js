@@ -54,7 +54,6 @@ display: flex;
   }
 
   .imageMyself {
-    
     border-radius: 50%;
   }
 
