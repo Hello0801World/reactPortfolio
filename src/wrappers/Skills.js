@@ -1,16 +1,17 @@
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-padding-top: 1rem;
+
+padding-top: 2rem;
 background: whitesmoke;
-padding-bottom: 1rem;
+padding-bottom: 3rem;
 
  .skillsContainer{
   background-color: #fff;
   border-radius: 4px;
   max-width: 900px;
   padding: 1rem;
-  margin: 1rem auto;
+  margin: 2rem auto;
 }
 
   h2 {

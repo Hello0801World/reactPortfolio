@@ -12,8 +12,7 @@ const Skills = () => {
   
   console.log(skills)
   return (
-      <Wrapper>
-      <h2>Here are my skills</h2>
+      <Wrapper id="skills">
           <div>
               <Container className='skillsContainer'>
               <h3>&lt;Languages /&gt;</h3>

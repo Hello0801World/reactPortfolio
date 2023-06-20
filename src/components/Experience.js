@@ -5,7 +5,7 @@ import Wrapper from "../wrappers/Experience"
 const Experience = () => {
   return (
     <Wrapper>
-      <div className="experience">
+      <div className="experience" id="experience">
         <Container className="container">
           <h2>Here's where I've worked at</h2>
           <div classNames="card content">

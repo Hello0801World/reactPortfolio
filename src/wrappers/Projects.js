@@ -9,8 +9,14 @@ const Wrapper = styled.div`
     
   }
 
+  .title {
+    font-size: 2vw;
+    color: #B17CEA;
+    font-weight: bold;
+  }
+
   h2 {
-    margin-bottom: 1rem;
+    margin-bottom: b1rem;
   }
 
   .card {
@@ -18,6 +24,10 @@ const Wrapper = styled.div`
   }
   .cardContent {
     
+  }
+
+  .cardBody {
+    padding: 1.5rem;
   }
 `
 
